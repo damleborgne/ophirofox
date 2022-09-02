@@ -1,6 +1,12 @@
 const ophirofox_config_list = [
-  {
-    name: "SU",
+  {name: "Rabelais",
+    domains: ["iledefrance.fr"],
+    LOGIN_URL: "https://ent.iledefrance.fr/auth/login",
+    // URL à charger pour pouvoir se logger sans mot de passe
+    AUTH_URL:
+      "https://ent.iledefrance.fr/auth/login?url=https://nouveau.europresse.com/access/ip/default.aspx?un=rabelaisT_2",
+  },
+  {name: "SU",
     domains: ["sorbonne-universite.fr"],
     LOGIN_URL: "http://accesdistant.sorbonne-universite.fr/login",
     // URL à charger pour pouvoir se logger sans mot de passe
