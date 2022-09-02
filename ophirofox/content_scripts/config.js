@@ -1,5 +1,12 @@
 const ophirofox_config_list = [
   {
+    name: "SU",
+    domains: ["sorbonne-universite.fr"],
+    LOGIN_URL: "http://accesdistant.sorbonne-universite.fr/login",
+    // URL à charger pour pouvoir se logger sans mot de passe
+    AUTH_URL:
+      "http://accesdistant.sorbonne-universite.fr/login?url=https://nouveau.europresse.com/access/ip/default.aspx?un=UPMCT_1",
+  },
     name: "ULM",
     domains: ["ens.fr"],
     LOGIN_URL: "http://proxy.rubens.ens.fr/login",
